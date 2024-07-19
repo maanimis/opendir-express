@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Directory Listing</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Directory Listing for <span id="path"></span></h1>
+      <div class="navigation">
+        <input type="text" id="dir-input" placeholder="Enter directory path" />
+        <button id="go-button">Go</button>
+      </div>
+      <table id="file-list">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Size</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
